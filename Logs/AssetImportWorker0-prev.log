@@ -1,477 +1,534 @@
-Unity Editor version:    2020.3.22f1 (e1a7f79fd887)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.3.1 (Build 21E258)
-Darwin version:          21.4.0
-Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        16384 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1889; Version 2009; 64bit' Language: 'ru' Physical Memory: 32699 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/alekseielgin/GitHub/Simple-platformer
+C:/Repos/Simple-platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53744
-Successfully changed project path to: /Users/alekseielgin/GitHub/Simple-platformer
-/Users/alekseielgin/GitHub/Simple-platformer
+60439
+Successfully changed project path to: C:/Repos/Simple-platformer
+C:/Repos/Simple-platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 33.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/alekseielgin/GitHub/Simple-platformer/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Repos/Simple-platformer/Assets
 GfxDevice: creating device client; threaded=0
-2022-08-25 16:53:58.972 Unity[51607:1993129] (null) preferred device: Apple M1 (high power)
-2022-08-25 16:53:58.973 Unity[51607:1993129] Metal devices available: 1
-2022-08-25 16:53:58.973 Unity[51607:1993129] 0: Apple M1 (high power)
-2022-08-25 16:53:58.973 Unity[51607:1993129] Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   31.0.15.1694
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56607
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000436 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002013 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 31.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.927 seconds
+- Completed reload, in  1.951 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2927ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (1951ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1170ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (337ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (623ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (126ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (368ms)
-				ProcessInitializeOnLoadMethodAttributes (113ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001252 seconds.
+Registered in 0.004347 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 40.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 32.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.751 seconds
+- Completed reload, in  0.861 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2752ms)
-		BeginReloadAssembly (271ms)
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (2381ms)
-			LoadAssemblies (218ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (702ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
+			SetupTypeCache (235ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1399ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (232ms)
-				ProcessInitializeOnLoadAttributes (1054ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000518 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000563 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Initializing Unity extensions:
-2022-08-25 16:54:05.565 Unity[51607:1993129] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000014f6450 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-08-25 16:54:05.568 Unity[51607:1993129] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000014e7790 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.26 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 206.9 MB.
-System memory in use after: 206.2 MB.
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
 
-Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 2655.
-Total: 2.693625 ms (FindLiveObjects: 0.125042 ms CreateObjectMapping: 0.041083 ms MarkObjects: 2.134208 ms  DeleteObjects: 0.392375 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 2.771700 ms (FindLiveObjects: 0.163700 ms CreateObjectMapping: 0.055200 ms MarkObjects: 2.503700 ms  DeleteObjects: 0.048200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Viking/RunRight
-  artifactKey: Guid(9a723fd107adb40728d3f4a2633b2aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunRight using Guid(9a723fd107adb40728d3f4a2633b2aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bae228f8b065cd0a9c4dd8417911ad5') in 0.011203 seconds 
-  Import took 0.016713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.515214 seconds.
-  path: Assets/Sprites/Viking/IdleRight
-  artifactKey: Guid(50b05e0abc62e40308697353ad92a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleRight using Guid(50b05e0abc62e40308697353ad92a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd84b1824412e4f4e01c284b3f5da9c') in 0.001687 seconds 
-  Import took 0.006811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.321464 seconds.
-  path: Assets/Sprites/Viking
-  artifactKey: Guid(dbbb7c09e0d514113ae7692ff28238a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking using Guid(dbbb7c09e0d514113ae7692ff28238a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bb42ca93de4c68c686cc6b1ae0a789') in 0.001659 seconds 
-  Import took 0.006570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18179.438491 seconds.
-  path: Assets/Sprites/Minotaur
-  artifactKey: Guid(1f590aec31c7147f89360f8ca99efa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Minotaur using Guid(1f590aec31c7147f89360f8ca99efa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73890a1305969cf78eca294fed6e9ec5') in 0.002269 seconds 
-  Import took 0.008791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.743301 seconds.
-  path: Assets/Sprites/Minotaur/WalkLeft.png
-  artifactKey: Guid(0e1af08db205a4ec1bc8220297c747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Minotaur/WalkLeft.png using Guid(0e1af08db205a4ec1bc8220297c747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0523797b3b834178d5b7afce5dffa545') in 0.256762 seconds 
-  Import took 0.260526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002098 seconds.
-  path: Assets/Sprites/Minotaur/WalkRight.png
-  artifactKey: Guid(d29a6e2edcaf24ee7adffc5c5ac59e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Minotaur/WalkRight.png using Guid(d29a6e2edcaf24ee7adffc5c5ac59e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26986479ee825523a147ccfcced7418') in 0.012128 seconds 
-  Import took 0.014513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.196142 seconds.
-  path: Assets/Sprites/Minotaur/WalkLeft.png
-  artifactKey: Guid(0e1af08db205a4ec1bc8220297c747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Minotaur/WalkLeft.png using Guid(0e1af08db205a4ec1bc8220297c747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50106d26970edefdd57f0dab2fc8346b') in 0.006572 seconds 
-  Import took 0.009306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.145088 seconds.
-  path: Assets/Sprites/Minotaur/WalkLeft.png
-  artifactKey: Guid(0e1af08db205a4ec1bc8220297c747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Minotaur/WalkLeft.png using Guid(0e1af08db205a4ec1bc8220297c747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3938eb4cb5096550ec4886076b9cd877') in 0.029217 seconds 
-  Import took 0.031966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.907496 seconds.
-  path: Assets/Sprites/Minotaur/WalkRight.png
-  artifactKey: Guid(d29a6e2edcaf24ee7adffc5c5ac59e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Minotaur/WalkRight.png using Guid(d29a6e2edcaf24ee7adffc5c5ac59e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f477ead4e2f07fbe5224061f42fabb') in 0.007612 seconds 
-  Import took 0.011035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.910517 seconds.
-  path: Assets/Sprites/Minotaur/WalkRight.png
-  artifactKey: Guid(d29a6e2edcaf24ee7adffc5c5ac59e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Minotaur/WalkRight.png using Guid(d29a6e2edcaf24ee7adffc5c5ac59e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0430a1137145d40508936603376994') in 0.033102 seconds 
-  Import took 0.035835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.230687 seconds.
-  path: Assets/Sprites/Viking/IdleLeft/IdlePose01_01.png
-  artifactKey: Guid(c926638c276274389a3a0178057adffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleLeft/IdlePose01_01.png using Guid(c926638c276274389a3a0178057adffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cac477b98fc557d91cb8bad94a00b84') in 0.025470 seconds 
-  Import took 0.031003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Sprites/Viking/IdleLeft/IdlePose01_02.png
-  artifactKey: Guid(1dc2991704c3d4fd293422b5f99229cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleLeft/IdlePose01_02.png using Guid(1dc2991704c3d4fd293422b5f99229cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244e56008e0783005bf2d2f668eccea6') in 0.012359 seconds 
-  Import took 0.016075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Sprites/Viking/IdleLeft/IdlePose01_04.png
-  artifactKey: Guid(f4881fe9e7f1b4fb09c3a8f673b3b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleLeft/IdlePose01_04.png using Guid(f4881fe9e7f1b4fb09c3a8f673b3b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af59e88da42ea4aa7c51d3073fb2388') in 0.010115 seconds 
-  Import took 0.013668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Sprites/Viking/IdleLeft/IdlePose01_03.png
-  artifactKey: Guid(1b49e564554c746b195aa2022ade945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleLeft/IdlePose01_03.png using Guid(1b49e564554c746b195aa2022ade945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b41262e15175df495d418f5aa31e2a') in 0.010093 seconds 
-  Import took 0.012950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.465013 seconds.
-  path: Assets/Sprites/Viking/IdleLeft/IdlePose01_03.png
-  artifactKey: Guid(1b49e564554c746b195aa2022ade945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleLeft/IdlePose01_03.png using Guid(1b49e564554c746b195aa2022ade945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97a017fb55b6e3639c0e0d28ccb5b9a') in 0.009984 seconds 
-  Import took 0.013034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005813 seconds.
-  path: Assets/Sprites/Viking/IdleLeft/IdlePose01_01.png
-  artifactKey: Guid(c926638c276274389a3a0178057adffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleLeft/IdlePose01_01.png using Guid(c926638c276274389a3a0178057adffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2650bd4b9b19dd9fc5a44e83a08bc0dc') in 0.008040 seconds 
-  Import took 0.011134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/Viking/IdleLeft/IdlePose01_02.png
-  artifactKey: Guid(1dc2991704c3d4fd293422b5f99229cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleLeft/IdlePose01_02.png using Guid(1dc2991704c3d4fd293422b5f99229cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac2a8667b7e7044de0c5e5314784a11') in 0.010976 seconds 
-  Import took 0.013471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Sprites/Viking/IdleLeft/IdlePose01_04.png
-  artifactKey: Guid(f4881fe9e7f1b4fb09c3a8f673b3b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleLeft/IdlePose01_04.png using Guid(f4881fe9e7f1b4fb09c3a8f673b3b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8418c8bbeedae2fb23b29642ae6bbeb') in 0.009036 seconds 
-  Import took 0.011340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.768299 seconds.
-  path: Assets/Sprites/Viking/IdleRight/IdlePose01_01.png
-  artifactKey: Guid(2ae5bd2f93c1549f497115fc9769d58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleRight/IdlePose01_01.png using Guid(2ae5bd2f93c1549f497115fc9769d58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ea1b41c90febfc86fa180900491f00') in 0.008580 seconds 
-  Import took 0.011282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/Viking/IdleRight/IdlePose01_04.png
-  artifactKey: Guid(e9a5a217159f24d519afdb9a77ed9eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleRight/IdlePose01_04.png using Guid(e9a5a217159f24d519afdb9a77ed9eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977dc9a764cfecdb5ca30d98916c54f5') in 0.007356 seconds 
-  Import took 0.009744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Sprites/UI/RedTitle.png
-  artifactKey: Guid(4dafb03c449d145d7a99c8c9e4f3310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/RedTitle.png using Guid(4dafb03c449d145d7a99c8c9e4f3310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc482f8f9d9bf9b32417a57efff4499') in 0.010247 seconds 
-  Import took 0.012751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Sprites/Viking/RunLeft/RunPose01_05.png
-  artifactKey: Guid(58328faa27d1a4ebc871883107f0e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunLeft/RunPose01_05.png using Guid(58328faa27d1a4ebc871883107f0e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628d4fe61bd8e0f0f3d58df1513eaec5') in 0.010781 seconds 
-  Import took 0.013289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Sprites/Viking/RunRight/RunPose01_01.png
-  artifactKey: Guid(a501bce0ea8c1426eb6a3ae78746fde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunRight/RunPose01_01.png using Guid(a501bce0ea8c1426eb6a3ae78746fde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8763ee413c6ca9f9df996a2d3303e39d') in 0.008555 seconds 
-  Import took 0.010996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sprites/Viking/RunLeft/RunPose01_02.png
-  artifactKey: Guid(686ab3ff0b20d4f03a5d6935e0d16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunLeft/RunPose01_02.png using Guid(686ab3ff0b20d4f03a5d6935e0d16658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f69df08663ab5d06eea2c487482c67') in 0.007875 seconds 
-  Import took 0.010165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Sprites/Viking/RunLeft/RunPose01_03.png
-  artifactKey: Guid(249d1531b04d54b84b3546512ce36fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunLeft/RunPose01_03.png using Guid(249d1531b04d54b84b3546512ce36fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd366bd3b8edb4a9c8cf87afc310b2f41') in 0.007606 seconds 
-  Import took 0.009805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Sprites/Viking/RunRight/RunPose01_06.png
-  artifactKey: Guid(a1a85cb216b8d42f9ac18aa8b4fb5301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunRight/RunPose01_06.png using Guid(a1a85cb216b8d42f9ac18aa8b4fb5301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ae2974fd1a7167446ea69c0871b1d9') in 0.007594 seconds 
-  Import took 0.009764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Sprites/Viking/RunRight/RunPose01_04.png
-  artifactKey: Guid(662c77d4cd417488ab0cf0c08e05b08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunRight/RunPose01_04.png using Guid(662c77d4cd417488ab0cf0c08e05b08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641a0324262bd2f3e275e8eb535d60b4') in 0.007147 seconds 
-  Import took 0.009308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Sprites/Viking/RunRight/RunPose01_03.png
-  artifactKey: Guid(f10c90eac11c644dc89397b8cb0f6a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunRight/RunPose01_03.png using Guid(f10c90eac11c644dc89397b8cb0f6a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12064f14a96db5e63c3ed4ba4146d3e') in 0.007054 seconds 
-  Import took 0.009203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Sprites/Viking/RunRight/RunPose01_05.png
-  artifactKey: Guid(2e77a3d7e037c4853b0707261b7afd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunRight/RunPose01_05.png using Guid(2e77a3d7e037c4853b0707261b7afd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db06bb4d264804bbe07b69327655724') in 0.007091 seconds 
-  Import took 0.009248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Sprites/UI/RedButtonPressed.png
-  artifactKey: Guid(c866dcfc3b378400da706ca2d8c7331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/RedButtonPressed.png using Guid(c866dcfc3b378400da706ca2d8c7331f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57b68c99ff5a30f31a21af37287279f') in 0.012189 seconds 
-  Import took 0.014377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Sprites/Viking/IdleRight/IdlePose01_02.png
-  artifactKey: Guid(ef0b53cb944f8410097a96948b4aebc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleRight/IdlePose01_02.png using Guid(ef0b53cb944f8410097a96948b4aebc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4869d456d28f34bede790a4813c812ac') in 0.007380 seconds 
-  Import took 0.009552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/Viking/RunLeft/RunPose01_01.png
-  artifactKey: Guid(7f99ee97a31c24b8a809c1f4b82b010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunLeft/RunPose01_01.png using Guid(7f99ee97a31c24b8a809c1f4b82b010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3b698e72cda17717aed43cfe33c439') in 0.007025 seconds 
-  Import took 0.009222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sprites/Viking/RunLeft/RunPose01_04.png
-  artifactKey: Guid(60b0a048ae7ae4a40b80d261ac17de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunLeft/RunPose01_04.png using Guid(60b0a048ae7ae4a40b80d261ac17de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194d397d4bc8c77ffdc190ed2df3fe4d') in 0.007113 seconds 
-  Import took 0.009311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/Viking/RunRight/RunPose01_02.png
-  artifactKey: Guid(cc161572dc0e14e91b488ab024875773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/RunRight/RunPose01_02.png using Guid(cc161572dc0e14e91b488ab024875773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795eada5773730bd0648790ea734d172') in 0.007114 seconds 
-  Import took 0.009291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
   path: Assets/Sprites/Viking/IdleRight/IdlePose01_03.png
-  artifactKey: Guid(326ee77c10ea4458aac30c160c24ab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Viking/IdleRight/IdlePose01_03.png using Guid(326ee77c10ea4458aac30c160c24ab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b2da69ea5cca3cc66acb496feb1505') in 0.007095 seconds 
-  Import took 0.009291 seconds .
+  artifactKey: Guid(4f8409548e190426492abb1b7c2ad54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleRight/IdlePose01_03.png using Guid(4f8409548e190426492abb1b7c2ad54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1786969a1fe2a0be7dd83cb3b27879') in 0.086140 seconds 
+  Import took 0.088672 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 389.337385 seconds.
-  path: Assets/Animations/Player/IdleRight.anim
-  artifactKey: Guid(16a763fccb38c413faa352212d08b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/IdleRight.anim using Guid(16a763fccb38c413faa352212d08b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a84740c7ada37358979f7baa48898ee') in 0.434150 seconds 
-  Import took 0.437932 seconds .
+  Time since last request: 0.000497 seconds.
+  path: Assets/Sprites/Viking/IdleRight/IdlePose01_02.png
+  artifactKey: Guid(cbd027197face44cbb1b302759fd48d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleRight/IdlePose01_02.png using Guid(cbd027197face44cbb1b302759fd48d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa55dddacfca2e6ceefc7bdc73fc0bc8') in 0.009606 seconds 
+  Import took 0.012024 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 273.600541 seconds.
-  path: Assets/Sprites/IdlePose01_01.png
-  artifactKey: Guid(001d1f06f824648b9a97c9ca736b0422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/IdlePose01_01.png using Guid(001d1f06f824648b9a97c9ca736b0422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3050f6d4db906d47c77fbb62053d30f4') in 0.008243 seconds 
-  Import took 0.011008 seconds .
+  Time since last request: 0.000425 seconds.
+  path: Assets/Sprites/Viking/IdleRight
+  artifactKey: Guid(6b42a9a94d21541f6b551e3335c7ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleRight using Guid(6b42a9a94d21541f6b551e3335c7ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2519db4fd7e6dd9b3824bc4b0b728054') in 0.001440 seconds 
+  Import took 0.003608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.499093 seconds.
-  path: Assets/Sprites/IdlePose01_01.png
-  artifactKey: Guid(001d1f06f824648b9a97c9ca736b0422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/IdlePose01_01.png using Guid(001d1f06f824648b9a97c9ca736b0422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d65acdecdce24891731023693f8892') in 0.009347 seconds 
-  Import took 0.012881 seconds .
+  Time since last request: 0.000380 seconds.
+  path: Assets/Sprites/Viking/IdleRight/IdlePose01_01.png
+  artifactKey: Guid(971808d04a9f14c70ad6161b55baf18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleRight/IdlePose01_01.png using Guid(971808d04a9f14c70ad6161b55baf18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7bbea612002686dd6456320d8801bc') in 0.007925 seconds 
+  Import took 0.010428 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.600606 seconds.
-  path: Assets/Sprites/IdlePose01_04.png
-  artifactKey: Guid(01023d99e31a145c9895ae2561c0a6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/IdlePose01_04.png using Guid(01023d99e31a145c9895ae2561c0a6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d42ab60b045aa6537dbd35729170a1') in 0.007797 seconds 
-  Import took 0.010633 seconds .
+  Time since last request: 0.000388 seconds.
+  path: Assets/Sprites/Viking/IdleRight/IdlePose01_04.png
+  artifactKey: Guid(2aeac13fde31b4453b357fe87b2e1433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleRight/IdlePose01_04.png using Guid(2aeac13fde31b4453b357fe87b2e1433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae96a1ddd65663cf427fc8a93b8e05d8') in 0.008524 seconds 
+  Import took 0.010991 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.233456 seconds.
-  path: Assets/Sprites/IdlePose01_04.png
-  artifactKey: Guid(01023d99e31a145c9895ae2561c0a6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/IdlePose01_04.png using Guid(01023d99e31a145c9895ae2561c0a6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee89b254a96d87fe2be08f6eb4dd21ef') in 0.009707 seconds 
-  Import took 0.013284 seconds .
+  Time since last request: 0.000368 seconds.
+  path: Assets/Sprites/Viking
+  artifactKey: Guid(75a2f5883888547c3ab5d42590fd046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking using Guid(75a2f5883888547c3ab5d42590fd046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adadd88d0a3f3082ceb9571766e4b217') in 0.001195 seconds 
+  Import took 0.003332 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Sprites/UI
+  artifactKey: Guid(dd8567dd13ed9456a944c6f4b1b558e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI using Guid(dd8567dd13ed9456a944c6f4b1b558e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6942a2f030842306019bb6796861bde') in 0.001290 seconds 
+  Import took 0.003737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.365112 seconds.
+  path: Assets/Sprites/Viking/RunLeft
+  artifactKey: Guid(80d3f3cd7775369408c343ff044bab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft using Guid(80d3f3cd7775369408c343ff044bab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3117b417d6add5a2e60096d6441b564') in 0.001509 seconds 
+  Import took 0.004147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043374 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_01.png
+  artifactKey: Guid(16f549ab8805f10408f2adddcd58126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_01.png using Guid(16f549ab8805f10408f2adddcd58126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763390968ecc1e882e77e43ba545b51c') in 0.005544 seconds 
+  Import took 0.008109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_04.png
+  artifactKey: Guid(36fc8efa92520c1449187617451b991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_04.png using Guid(36fc8efa92520c1449187617451b991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf86fe9e555df5c73dc86d19a8f79c5e') in 0.006272 seconds 
+  Import took 0.008956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_03.png
+  artifactKey: Guid(cab1fa018da966645acbabfde32bf3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_03.png using Guid(cab1fa018da966645acbabfde32bf3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0949abc32596d6d42a6b42df90b8ad53') in 0.007047 seconds 
+  Import took 0.009652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_07.png
+  artifactKey: Guid(551fb741c9f49914385fc793a8c262e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_07.png using Guid(551fb741c9f49914385fc793a8c262e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb75185b2655e588bd44cdd4b0793f22') in 0.007168 seconds 
+  Import took 0.009681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_08.png
+  artifactKey: Guid(da2294eda8670344e99777d76cd7d300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_08.png using Guid(da2294eda8670344e99777d76cd7d300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5a1d42f5b5e2ed89f9d3877ee83df1') in 0.006067 seconds 
+  Import took 0.008460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_05.png
+  artifactKey: Guid(5d9edaf30f98f734483ad7b6dc5fbef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_05.png using Guid(5d9edaf30f98f734483ad7b6dc5fbef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3b9d72c79f86e019ca70e4a61ea94f') in 0.007034 seconds 
+  Import took 0.009573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_02.png
+  artifactKey: Guid(ff118e519f74936439011fe9bd752f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_02.png using Guid(ff118e519f74936439011fe9bd752f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d284cd74f1ad142b1951065c23ba6d') in 0.006899 seconds 
+  Import took 0.009348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_06.png
+  artifactKey: Guid(adf5056aba399674990edfcbaefec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_06.png using Guid(adf5056aba399674990edfcbaefec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c666feff8d237ceb0a9930632d41decf') in 0.005659 seconds 
+  Import took 0.008011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.898782 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_07.png
+  artifactKey: Guid(551fb741c9f49914385fc793a8c262e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_07.png using Guid(551fb741c9f49914385fc793a8c262e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2655312dd6efbe2f248ca2b44a05b63') in 0.009198 seconds 
+  Import took 0.011785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004818 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_01.png
+  artifactKey: Guid(16f549ab8805f10408f2adddcd58126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_01.png using Guid(16f549ab8805f10408f2adddcd58126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3348d6f9e9bef8d16b34bb0b5f6c75b') in 0.008659 seconds 
+  Import took 0.011206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_04.png
+  artifactKey: Guid(36fc8efa92520c1449187617451b991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_04.png using Guid(36fc8efa92520c1449187617451b991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88bc18d23ae9b6266bacbaae4800a9f') in 0.008692 seconds 
+  Import took 0.011016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_03.png
+  artifactKey: Guid(cab1fa018da966645acbabfde32bf3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_03.png using Guid(cab1fa018da966645acbabfde32bf3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd701cc6a943cdf4d19faf8a91b232929') in 0.009535 seconds 
+  Import took 0.011880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_08.png
+  artifactKey: Guid(da2294eda8670344e99777d76cd7d300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_08.png using Guid(da2294eda8670344e99777d76cd7d300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f29f7b6f93a60e745622fc7c9c882b') in 0.008234 seconds 
+  Import took 0.010521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_05.png
+  artifactKey: Guid(5d9edaf30f98f734483ad7b6dc5fbef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_05.png using Guid(5d9edaf30f98f734483ad7b6dc5fbef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f700dd71eec72afe275eea8337f42a6') in 0.008285 seconds 
+  Import took 0.010665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_02.png
+  artifactKey: Guid(ff118e519f74936439011fe9bd752f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_02.png using Guid(ff118e519f74936439011fe9bd752f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ab1ea25d332d6dac0083fbd02de3fd') in 0.008558 seconds 
+  Import took 0.010910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_06.png
+  artifactKey: Guid(adf5056aba399674990edfcbaefec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_06.png using Guid(adf5056aba399674990edfcbaefec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e173d5ace5ba6ada5bbf8552fa0f549') in 0.008768 seconds 
+  Import took 0.011110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.456142 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_07.png
+  artifactKey: Guid(551fb741c9f49914385fc793a8c262e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_07.png using Guid(551fb741c9f49914385fc793a8c262e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9efdbd29cab12802ce6c3bef8c5736') in 0.008336 seconds 
+  Import took 0.011072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004634 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_01.png
+  artifactKey: Guid(16f549ab8805f10408f2adddcd58126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_01.png using Guid(16f549ab8805f10408f2adddcd58126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a967bc42a69e8b2f5ed2d313f2941b4') in 0.008038 seconds 
+  Import took 0.010554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_04.png
+  artifactKey: Guid(36fc8efa92520c1449187617451b991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_04.png using Guid(36fc8efa92520c1449187617451b991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d7798157ec135c646832baad5ce62f') in 0.007844 seconds 
+  Import took 0.010182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_03.png
+  artifactKey: Guid(cab1fa018da966645acbabfde32bf3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_03.png using Guid(cab1fa018da966645acbabfde32bf3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b295103ede5a20f5a99db1491efa8721') in 0.007553 seconds 
+  Import took 0.009869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_08.png
+  artifactKey: Guid(da2294eda8670344e99777d76cd7d300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_08.png using Guid(da2294eda8670344e99777d76cd7d300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d57951850ec4fac025f7e37a5842f59') in 0.008725 seconds 
+  Import took 0.011047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_05.png
+  artifactKey: Guid(5d9edaf30f98f734483ad7b6dc5fbef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_05.png using Guid(5d9edaf30f98f734483ad7b6dc5fbef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fdcb80c008c0c9761bf0c1cd8df309') in 0.008184 seconds 
+  Import took 0.010472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_02.png
+  artifactKey: Guid(ff118e519f74936439011fe9bd752f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_02.png using Guid(ff118e519f74936439011fe9bd752f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc50bffcc7a0ec650f7209690548eac') in 0.007564 seconds 
+  Import took 0.009966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Sprites/Viking/RunLeft/m_RunPose01_06.png
+  artifactKey: Guid(adf5056aba399674990edfcbaefec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunLeft/m_RunPose01_06.png using Guid(adf5056aba399674990edfcbaefec342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb15a7afce0e67188bedccec3d71737') in 0.007507 seconds 
+  Import took 0.009806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.925051 seconds.
+  path: Assets/Sprites/Viking/RunRight
+  artifactKey: Guid(f9b82d74c45624ab98b6c19b9010c2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight using Guid(f9b82d74c45624ab98b6c19b9010c2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3576d98f1da0aa850e2212928652b5ee') in 0.001617 seconds 
+  Import took 0.004626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053805 seconds.
+  path: Assets/Sprites/Viking/RunRight/RunPose01_01.png
+  artifactKey: Guid(da114ddd78a5a48819f5a4a034cde622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight/RunPose01_01.png using Guid(da114ddd78a5a48819f5a4a034cde622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269b70bf53c04514dbbc42f3fb35f81d') in 0.017728 seconds 
+  Import took 0.021114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Sprites/Viking/RunRight/RunPose01_08.png
+  artifactKey: Guid(9c77fd5678f3c41018ee4e9d22dcb4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight/RunPose01_08.png using Guid(9c77fd5678f3c41018ee4e9d22dcb4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b63c63b8434710a3ec16c2d1faf0fe4') in 0.010720 seconds 
+  Import took 0.013574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Sprites/Viking/RunRight/RunPose01_02.png
+  artifactKey: Guid(56bcd88d5bc204efa84e35ac1f731d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight/RunPose01_02.png using Guid(56bcd88d5bc204efa84e35ac1f731d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3ffc44fc8afcbcae7596e3f26f7a42') in 0.007812 seconds 
+  Import took 0.010237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Sprites/Viking/RunRight/RunPose01_05.png
+  artifactKey: Guid(a3d68f73d9aa0459fb45801798b85447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight/RunPose01_05.png using Guid(a3d68f73d9aa0459fb45801798b85447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463d25ed85b1f053538872bf25846dbd') in 0.008108 seconds 
+  Import took 0.010433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Sprites/Viking/RunRight/RunPose01_04.png
+  artifactKey: Guid(8b23b62c80ea040298198a431de4acc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight/RunPose01_04.png using Guid(8b23b62c80ea040298198a431de4acc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f8e367c9dbbde3b2dcc3140737238a') in 0.008755 seconds 
+  Import took 0.011137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Sprites/Viking/RunRight/RunPose01_03.png
+  artifactKey: Guid(66374375c94604cf3b2fd7e86265d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight/RunPose01_03.png using Guid(66374375c94604cf3b2fd7e86265d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6b308933f7dfbf83b804f26c79a53a') in 0.009041 seconds 
+  Import took 0.011658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Sprites/Viking/RunRight/RunPose01_06.png
+  artifactKey: Guid(1aa5c3f9e97054e2eaa55ac5c3cce8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight/RunPose01_06.png using Guid(1aa5c3f9e97054e2eaa55ac5c3cce8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358c2acd30d360042e2d0aaa20a7403f') in 0.008215 seconds 
+  Import took 0.010647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Sprites/Viking/RunRight/RunPose01_07.png
+  artifactKey: Guid(65f09c8f4733a4c52b079764c41a07a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/RunRight/RunPose01_07.png using Guid(65f09c8f4733a4c52b079764c41a07a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead88dd015cca7d1c543367ecfc82f5e') in 0.008447 seconds 
+  Import took 0.010910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.692931 seconds.
+  path: Assets/Sprites/Viking/IdleLeft
+  artifactKey: Guid(846b7d3991aa69a4a84cf5466222110f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft using Guid(846b7d3991aa69a4a84cf5466222110f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c717a2cff82f8edf964efc31f1d04a7') in 0.001349 seconds 
+  Import took 0.003934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064775 seconds.
+  path: Assets/Sprites/Viking/IdleLeft/m_IdlePose01_01.png
+  artifactKey: Guid(28ff9e34dd91a9547851207af32fc05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft/m_IdlePose01_01.png using Guid(28ff9e34dd91a9547851207af32fc05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b90da774f3f7a9b62dbcb4b73210188') in 0.012339 seconds 
+  Import took 0.014977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Sprites/Viking/IdleLeft/m_IdlePose01_04.png
+  artifactKey: Guid(f9712b5daae506344b3adfb554a833f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft/m_IdlePose01_04.png using Guid(f9712b5daae506344b3adfb554a833f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17676c46a3918706e8f7b1258159acff') in 0.005617 seconds 
+  Import took 0.008070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Sprites/Viking/IdleLeft/m_IdlePose01_03.png
+  artifactKey: Guid(e21575b9df4723f42a6ae3e1941397a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft/m_IdlePose01_03.png using Guid(e21575b9df4723f42a6ae3e1941397a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd692549293fccab0f1e119f402e99e0d') in 0.006112 seconds 
+  Import took 0.008533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Sprites/Viking/IdleLeft/m_IdlePose01_02.png
+  artifactKey: Guid(43065a3ee739ef44c98b873c92237f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft/m_IdlePose01_02.png using Guid(43065a3ee739ef44c98b873c92237f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e869b1cd30bd238553ae168d2aed24') in 0.006163 seconds 
+  Import took 0.008536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.463174 seconds.
+  path: Assets/Sprites/Viking/IdleLeft/m_IdlePose01_02.png
+  artifactKey: Guid(43065a3ee739ef44c98b873c92237f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft/m_IdlePose01_02.png using Guid(43065a3ee739ef44c98b873c92237f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9192a61d10d8788b42bf0762ac0a05ef') in 0.008156 seconds 
+  Import took 0.010940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003486 seconds.
+  path: Assets/Sprites/Viking/IdleLeft/m_IdlePose01_01.png
+  artifactKey: Guid(28ff9e34dd91a9547851207af32fc05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft/m_IdlePose01_01.png using Guid(28ff9e34dd91a9547851207af32fc05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061535c4dbe7c5170f190bcedf489151') in 0.008377 seconds 
+  Import took 0.011042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Sprites/Viking/IdleLeft/m_IdlePose01_04.png
+  artifactKey: Guid(f9712b5daae506344b3adfb554a833f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft/m_IdlePose01_04.png using Guid(f9712b5daae506344b3adfb554a833f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9eee0efa58908a9857613b5a68c0660') in 0.007976 seconds 
+  Import took 0.010576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Sprites/Viking/IdleLeft/m_IdlePose01_03.png
+  artifactKey: Guid(e21575b9df4723f42a6ae3e1941397a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Viking/IdleLeft/m_IdlePose01_03.png using Guid(e21575b9df4723f42a6ae3e1941397a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb641261041ea302e2ffe8c01e5b82e') in 0.008391 seconds 
+  Import took 0.010908 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
