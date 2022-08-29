@@ -56,13 +56,11 @@ public class Mover : MonoBehaviour
         {
             if (_isLeft & _rigidbody.velocity.x == 0 & _rigidbody.velocity.y == 0)
             {
-                _animator.StopPlayback();
                 _currentAnimation = _idleLeft;
             }
             
             else if (_isRight & _rigidbody.velocity.x == 0 & _rigidbody.velocity.y == 0)
             {
-                _animator.StopPlayback();
                 _currentAnimation = _idleRight;
             }
 
@@ -76,7 +74,7 @@ public class Mover : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) & _rigidbody.velocity.y == 0)
             {
-                _rigidbody.AddForce(Vector2.up * _forceJump, ForceMode2D.Force);
+                _rigidbody.AddForce(Vector2.up * _forceJump * Time.deltaTime, ForceMode2D.Force);
             }
 
             yield return null;
