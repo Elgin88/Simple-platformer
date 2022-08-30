@@ -1,39 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
+
+[RequireComponent(typeof(BoxCollider2D))]
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private int _health = 100;
-    
-    private int _currentHealth;
-    private int _numberOfCoins;
-
-    public event UnityAction<int> HealthChanged;
-    public event UnityAction<int> NumberOfCoinsChanged;
-    public event UnityAction IsDead;
-
-    public void Start()
-    {
-        _currentHealth = _health;
-    }
-
-    public void TakeDamage(int damage)
-    {
-        _currentHealth -= damage;
-        HealthChanged?.Invoke(_currentHealth);
-
-        if (_currentHealth <= 0)
-        {
-            Destroy(gameObject);
-            IsDead?.Invoke();
-        }
-    }
+    private int _currentNumberOfCoins;
 
     public void TakeCoin()
     {
-        _numberOfCoins++;
-        NumberOfCoinsChanged?.Invoke(_numberOfCoins);        
+        _currentNumberOfCoins++;               
     }
 }

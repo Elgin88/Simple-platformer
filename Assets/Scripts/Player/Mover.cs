@@ -12,7 +12,7 @@ public class Mover : MonoBehaviour
     [SerializeField] private float _forceJump;
     [SerializeField] private float _delayAfterJump;
     [SerializeField] private float _maxRightRotationZ;
-    [SerializeField] private float _maxLeftRotationZ;
+    [SerializeField] private float _maxLeftRotationZ;    
 
     private Animator _animator;
     private Rigidbody2D _rigidbody;
@@ -27,8 +27,9 @@ public class Mover : MonoBehaviour
     private string _idleRight = "IdleRight";
     private string _moveLeft = "MoveLeft";
     private string _moveRight = "MoveRight";
+    private string _currentAnimation;
 
-    private string _currentAnimation = "IdleRight";    
+    private float _timeAfterLastJump;        
 
     public void Start()
     {
@@ -37,12 +38,14 @@ public class Mover : MonoBehaviour
 
         _maxRightQuaternion = Quaternion.Euler(0, 0, _maxRightRotationZ);
         _maxLeftQuaternion = Quaternion.Euler(0, 0, _maxLeftRotationZ);
-        
+
+        _currentAnimation = "IdleRight";
+
+        StartCoroutine(PlayEdle());
+        StartCoroutine(Jump());
         StartCoroutine(MoveRight());
         StartCoroutine(MoveLeft());
-        StartCoroutine(Jump());
-        StartCoroutine(SetRotation());
-        StartCoroutine(PlayEdle());
+        StartCoroutine(BlockRotation());
     }
 
     public void Update()
@@ -54,12 +57,12 @@ public class Mover : MonoBehaviour
     {
         while (true)
         {
-            if (_isLeft & _rigidbody.velocity.x == 0 & _rigidbody.velocity.y == 0)
+            if (_isLeft & _rigidbody.velocity == null)
             {
-                _currentAnimation = _idleLeft;
+                _currentAnimation = _idleLeft;                
             }
             
-            else if (_isRight & _rigidbody.velocity.x == 0 & _rigidbody.velocity.y == 0)
+            else if (_isRight & _rigidbody.velocity == null)
             {
                 _currentAnimation = _idleRight;
             }
@@ -72,16 +75,19 @@ public class Mover : MonoBehaviour
     {
         while (true)
         {
-            if (Input.GetKey(KeyCode.Space) & _rigidbody.velocity.y == 0)
+            _timeAfterLastJump += Time.deltaTime;
+
+            if (Input.GetKey(KeyCode.Space) & _timeAfterLastJump > _delayAfterJump)
             {
                 _rigidbody.AddForce(Vector2.up * _forceJump * Time.deltaTime, ForceMode2D.Force);
+                _timeAfterLastJump = 0;
             }
 
             yield return null;
         }
     }
 
-    private IEnumerator SetRotation()
+    private IEnumerator BlockRotation()
     {
         while (true)
         {
