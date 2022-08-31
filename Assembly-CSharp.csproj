@@ -48,12 +48,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Enemy\WayPointMover.cs" />
+     <Compile Include="Assets\Scripts\Coin\Spawner.cs" />
      <Compile Include="Assets\Scripts\Player\Mover.cs" />
      <Compile Include="Assets\Scripts\Player\Player.cs" />
      <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Coin\Coin.cs" />
-     <Compile Include="Assets\Scripts\Coin\Spawner.cs" />
      <Compile Include="Assets\Scripts\Coin\SpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\Coin\Coin.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

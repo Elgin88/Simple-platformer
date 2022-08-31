@@ -8,12 +8,15 @@ public class Spawner : MonoBehaviour
     [SerializeField] private int _delay;
     [SerializeField] private Coin _template;
 
+    private WaitForSeconds _delayBetweenSpawn;
+
     private SpawnPoint[] _spawnPoints;
-    private int _currentPoint;
-    
+
+    private int _currentPoint;    
 
     private void Start()
     {
+        _delayBetweenSpawn = new WaitForSeconds(_delay);
         _spawnPoints = GetComponentsInChildren<SpawnPoint>();
         StartCoroutine(SpawnCoin());
     }
@@ -26,7 +29,7 @@ public class Spawner : MonoBehaviour
 
             Instantiate(_template, _spawnPoints[_currentPoint].transform.position, Quaternion.identity);
 
-            yield return new WaitForSeconds(_delay);
+            yield return _delayBetweenSpawn;
         }
     }
 }

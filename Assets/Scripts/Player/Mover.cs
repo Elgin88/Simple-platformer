@@ -46,11 +46,22 @@ public class Mover : MonoBehaviour
         StartCoroutine(MoveRight());
         StartCoroutine(MoveLeft());
         StartCoroutine(BlockRotation());
+        StartCoroutine(PlayAnimation());
+    }
+
+    private IEnumerator PlayAnimation()
+    {
+        while (true)
+        {
+            _animator.Play(_currentAnimation);
+
+            yield return null;
+        }        
     }
 
     public void Update()
     {
-        _animator.Play(_currentAnimation);
+        
     }
 
     private IEnumerator PlayEdle()
