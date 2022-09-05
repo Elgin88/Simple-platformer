@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 7
-  _forceJump: 400000
+  _forceJump: 1200000
   _delayAfterJump: 0.5
   _maxRightRotationZ: -0.1
   _maxLeftRotationZ: 0.1

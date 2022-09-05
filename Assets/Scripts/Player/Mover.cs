@@ -40,8 +40,7 @@ public class Mover : MonoBehaviour
         _maxLeftQuaternion = Quaternion.Euler(0, 0, _maxLeftRotationZ);
 
         _currentAnimation = "IdleRight";
-
-        StartCoroutine(PlayEdle());
+        
         StartCoroutine(Jump());
         StartCoroutine(MoveRight());
         StartCoroutine(MoveLeft());
@@ -61,24 +60,14 @@ public class Mover : MonoBehaviour
 
     public void Update()
     {
-        
-    }
-
-    private IEnumerator PlayEdle()
-    {
-        while (true)
+        if (_isLeft)
         {
-            if (_isLeft & _rigidbody.velocity == null)
-            {
-                _currentAnimation = _idleLeft;                
-            }
-            
-            else if (_isRight & _rigidbody.velocity == null)
-            {
-                _currentAnimation = _idleRight;
-            }
+            _currentAnimation = _idleLeft;
+        }
 
-            yield return null;
+        else if (_isRight)
+        {
+            _currentAnimation = _idleRight;
         }
     }
 

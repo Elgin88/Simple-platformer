@@ -12,8 +12,7 @@ public class WayPointMover : MonoBehaviour
     [SerializeField] private Transform _path;
     [SerializeField] private float _speed;
 
-    private Animator _animator;
-    private Rigidbody2D _rigidbody;
+    private Animator _animator;    
     private Transform[] _points;
     private int _currentPoint;
 
@@ -26,8 +25,7 @@ public class WayPointMover : MonoBehaviour
 
     private void Start()
     {
-        _animator = GetComponent<Animator>();
-        _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();        
 
         _points = new Transform[_path.childCount];
 
@@ -39,11 +37,6 @@ public class WayPointMover : MonoBehaviour
         StartCoroutine(Move());
 
         _currentX = transform.position.x;
-    }
-
-    private void Update()
-    {
-        _animator.Play(_currentAnimation);
     }
 
     private IEnumerator Move()
@@ -68,6 +61,8 @@ public class WayPointMover : MonoBehaviour
             else
                 _currentAnimation = _moveLeft;
 
+            _animator.Play(_currentAnimation);    
+            
             yield return null;
         }               
     }
